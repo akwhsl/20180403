@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>collage_심혜윤</title>
+	<style>
+		body{text-align: center;}
+		div{width:800px; margin:auto; position: relative; border: 1px}
+
+		h1{ color:white; }
+
+		.no1 h1:hover {transform: rotateZ(-30deg);}
+		.no1 h1 {position: absolute; width: 380px;left:350px; height:50px; top:250px;  transition: all 0.5s}
+		.no1 img {position: absolute; left: 550px;}
+		
+			.no2 h1:hover {transform: rotateZ(-360deg);}
+			.no2 h1 {position: absolute; width: 200px;left:-280px; height:50px; top:580px;  transition: all 1s}
+			.no2 img {position: absolute; left: -500px; top:300px;}
+			.no2 img:hover {transform: rotateY(180deg); }
+			.no2 h2 {position: absolute; left: 120px; top: 700px;}
+
+		.no3 h1 {position: absolute; width: 300px;left:550px; height:50px; top:1100px;  transition: all 0.5s}
+		.no3 h1:hover {transform: rotateX(180deg);}
+		.no3 h2 {position: absolute; width: 300px;left:620px; height:50px; top:1160px;  transition: all 0.5s}
+		.no3 img {position: absolute; left: 600px; top: 800px;}
+		.no3 img:hover {transform: rotateY(180deg);}
+
+		.no4 h1 {position: absolute; width: 1000px; height:50px; right: -80px; top:2000px;}
+		.no4 img {position: absolute; right: 50px; top: 1450px; transition: all 1s}
+		.no4 img:hover {transform: rotate3d(1,1,1,360deg);}
+		
+	</style>
+		
+		
+</head>
+
+
+<body>
+<br><br>
+	<div class="no1">
+		<img src="monkey.jpg">
+		<h1 style="background: black" >원숭이 엉덩이는 빨개</h1>
+	</div>
+
+
+	<div class="no2">
+		<img src="apple.png" width="80%">
+		<img src="apple2.png" width="35%" style="left: -100px; top: 530px;">
+		<h1 style="background: black">빨가면 사과</h1>
+		<h2>사과는 맛있어</h2>
+	</div>
+
+	<div class="no3">
+		<img src="banana.png" width="70%">
+		<h1 style="background: black">맛있으면 바나나</h1>
+	</div>
+
+	<div class="no4">
+		<img src="banana2.jpg" width="90%">
+		<h1 style="background: black"> 바나나 맛있당</h1>
+	</div>
+
+</body>
+</html>
